@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <section className="App-content">
-          <ListOfGifs keywords='hamster' />
+          <ListOfGifs keywords='hormiga' />
       </section>
     </div>
   );
