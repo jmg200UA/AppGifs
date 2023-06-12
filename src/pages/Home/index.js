@@ -1,7 +1,7 @@
 import React from "react";
-import {Link} from "wouter";
+import {Link, Route} from "wouter";
 // Gifs que saldrán en la pantalla de inicio
-const POPULAR_GIFS = ["Panda", "Erizo", "Hamster"];
+const POPULAR_GIFS = ["Panda", "Erizo", "Hamster", "Leon", "Zebra"];
 
 export default function Home() {
 
