@@ -1,9 +1,9 @@
 const apiKey= 'QP8U1mQoaoknYXia8cdtw6D4eUZnotKu'; //guardamos la apikey en una variable
 
-export default function getGifs({keywords} = {}){
-  console.log("Keywords que llegan: ", keywords);
+export default function getGifs({keyword} = {}){
+  console.log("Keywords que llegan: ", keyword);
     //interpolamos la ruta con la variable de la api key y el valor de las keywords pasadas por parámetro
-    const apiUrl= `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${keywords}&limit=10&offset=0&rating=g&lang=en`;
+    const apiUrl= `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${keyword}&limit=10&offset=0&rating=g&lang=en`;
     return fetch(apiUrl)
       .then(res => res.json())
       .then(response =>{
