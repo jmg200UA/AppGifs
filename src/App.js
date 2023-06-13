@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <section className="App-content">
         <Link to='/'>
-          <img className='App-logo' alt='Logo Giffy React' src='.//logo.png'    />
+          <img className='App-logo' alt='Logo Giffy React' src='./logo.png'    />
         </Link>
         <Route 
           component ={Home}
