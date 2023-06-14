@@ -28,6 +28,7 @@ function App() {
           path="/gif/:id"
         />
       </section>
+      
     </div>
   );
 }
